@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secretos: el token de Telegram NUNCA se sube al repositorio
+.env
+token.txt
+*.secret
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+.ipynb_checkpoints/
